@@ -1,0 +1,188 @@
+/*** COLORS ****
+#356cec - Blue Purple
+#333333 - dark grey
+#ffffff - White
+****************/
+
+@font-face {
+    font-family: rubik;
+    src: url(Rubik-Regular.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    color: #333333;
+}
+
+h1, h2, h3, h4 {
+    font-family: rubik, Helvetica;
+}
+
+.mainWrap {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+/*************************************** Reusable Classes START ****/
+.outerHeading {
+    font-size: 3.1rem;
+    padding-top: 30px;
+}
+/*************************************** Reusable Classes END ****/
+/*************************************** Navigation START ****/
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #356cec;
+    color: #ffffff;
+}
+
+nav ul {
+    display: flex;
+    padding-left: 100px;
+    
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 26px;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: larger;
+
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #356cec;
+}
+
+/*************************************** Navigation END****/
+/*************************************** About START ****/
+.about {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    padding: 0px;
+    color: #333333;
+}
+
+.about h1 {
+    font-size: 4rem;
+}
+
+p.aboutUsText {
+    padding: 100px 20px 20px 20px;
+    text-justify: distribute;
+}
+
+div.aboutLeft h1 {
+    text-align: right;
+}
+/*************************************** About END ****/
+/*************************************** Offers START ****/
+
+.offers {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.offerItem {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ffffff;
+}
+
+.offerItem:hover {
+    background-color: rgb(178, 234, 236);
+}
+
+.offers h3 {
+    text-align: right;
+    font-size: 1.3rem;
+}
+
+/*************************************** Offers END ****/
+/*************************************** Contact START ****/
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: left;
+}
+
+.contact h2 {
+    font-size: 3rem;
+}
+
+.contactItems {
+    padding: 10px;
+}
+
+.contact ul {
+    list-style: none;
+    display: flex;
+}
+
+.contact ul li {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+/*************************************** Contact END ****/
+/*************************************** Footer START****/
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: left;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.footer {
+    padding: 20px;
+}
+
+/*************************************** Contact END ****/
+/*************************************** Media QUERY 600px START ****/
+
+@media(max-width: 800px) {
+    .offers {
+        flex-direction: column;
+    }
+    .aboutMainImage {
+        display: none;
+    }
+    .logoMainImage {
+        display: none;
+    }
+    div.aboutLeft h1 {
+        text-align: center;
+        font-size: 3rem;
+    }
+}
+/*************************************** Media QUERY 600px END ****/

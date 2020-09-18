@@ -1,0 +1,233 @@
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color:#2e6830;
+    color: black;
+    margin: 0em;
+    padding: 0em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section {
+    margin: 0px;
+    padding: 0px;
+}
+h2 {
+    font-size: 3em;
+}
+/***************************************** Navigation */
+.navWrap {
+    width: 100%;
+    background-color: black;
+}
+.navbar {
+    max-width: 960px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 0 auto;
+}
+.navbarLinks li:hover {
+    background-color: #333333;
+}
+.brandLogo {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+.navbarLinks ul {
+    margin: 0;
+    padding: 0;
+    display: flex;  
+}
+.navbarLinks li {
+    list-style: none;
+}
+.navbarLinks li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+@media(max-width: 600px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbarLinks {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbarLinks ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbarLinks li {
+        text-align: center;
+    }
+
+    .navbarLinks li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbarLinks.active {
+        display: flex;
+    }
+}
+
+/***************************************** Header - About Us Section */
+header {
+    background-color: #2e6830;
+    color: white;
+}
+div#aboutUs {
+    padding: 20px;
+    max-width: 960px;
+    margin: auto;
+}
+/***************************************** Our Services Section*/
+section#ourServices {
+    background-color: #dbefdc;
+
+}
+div#ourServicesWrap {
+    background-color: #dbefdc;
+    height: 300px;
+    max-width: 960px;
+    margin: auto;
+}
+.ourServices {
+    padding: 0px;
+    margin: 5px;
+    background-color: #b7dfb8 ;
+    color: black;
+    float: left;
+    width: 300px;
+    border: 1px solid #2e6830;
+}
+section#ourServices h3 {
+    padding: 12px;
+    margin: 0px;
+    background-color: #2e6830;
+    color: white;
+}
+section#ourServices p {
+    padding: 5px;
+}
+section#ourServices a {
+    padding: 10px;
+    background-color: #2e6830;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+/***************************************** Contact Section*/
+section#contactUs {
+    background-color:white/* #dbefdc*/ ;
+    color: black;
+}
+section#contactUs h2, h3{
+    text-align: center;
+}
+div#contact {
+    padding: 10px;
+    max-width: 620px;
+    margin: auto;
+    clear: both;
+    color: black;
+}
+
+a.contactLink {
+    color: black;
+    text-decoration: none;
+}
+a.contactLink:hover {
+    color:#2e6830;
+    text-decoration: none;
+}
+
+div#contactPhone {
+    float: left;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+}
+
+div#contactEmail {
+    float: right;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+div#contactMap
+{
+    clear: both;
+}
+
+div#contactMap h4 {
+    text-align: center;
+}
+/***************************************** Footer */
+footer {
+    background-color: #2e6830;
+    color: black;
+    clear: both;
+    font-size: 1.2em;
+    margin: 0px;
+    border: 1px 0 0 0  solid black;
+    height: 150px;
+}
+div#footerWrap {
+    background-color: #2e6830;
+    padding: 0px;
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+div#footer {
+    padding: 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: auto;
+    clear: both;
+    color: white; 
+}
+div#social {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    color: white; 
+}
