@@ -4,110 +4,409 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/styles/normalise.css">
+    <link rel="stylesheet" href="assets/styles/grid.css">
+    <link rel="stylesheet" href="assets/styles/ionicons.min.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="assets/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
-
-    <title>YOURFOOD | Good Food </title>
+    <title>Document</title>
 </head>
 
 <body>
-    <div class="bar"></div>
-    <div class="top_section">
+    <header>
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#offers">Menu</a></li>
-                <li><a href="#offers">Restoraunts</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="logo">
-                YOURFOOD
+            <div class="row">
+                <img src="assets/images/logo-white.png" alt="Omnifood Logo" class="logo">
+                <ul class="main-nav">
+                    <li><a href="#">Food delivery</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Our cities</a></li>
+                    <li><a href="#">Sign up</a></li>
+                </ul>
             </div>
         </nav>
-        <header>
-            <div class="header_content">
-                <h1>WE DELIVER, YOU EAT</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Deserunt, fugiat! Quas dolor officiis harum ut provident dolores
-                    nostrum omnis laboriosam impedit enim, ea veniam? Cumque excepturi
-                    quam maxime a assumenda iure? Odit quis ipsum eveniet sapiente
-                    asperiores necessitatibus nulla! Voluptas perspiciatis aperiam eum blanditiis?
-                </p>
-                <div class="buttons">
-                    <ul>
-                        <li><a href="#">Order Now</a></li>
-                        <li><a href="#">Download App</a></li>
-                    </ul>
-                </div>
-            </div>
-        </header>
-    </div>
-    <div class="bar"></div>
-    <section class="offers" id="offers">
-        <div class="container">
-            <h2>Check out our offer</h2>
-            <ul class="nav nav-tabs food_tabs">
-                <li class="active"><a data-toggle="tab" href="#home">Food Type</a></li>
-                <li><a data-toggle="tab" href="#menu1">Restoraunts</a></li>
-                <li><a data-toggle="tab" href="#menu2">Our Recomendations</a></li>
-            </ul>
-
-            <div class="tab-content">
-                <div id="home" class="tab-pane fade in active food">
-                    <h3>Food Type</h3>
-                    <ul>
-                        <li>Asian</li>
-                        <li>Italian</li>
-                        <li>Japanese</li>
-                        <li>American</li>
-                        <li>Balkan</li>
-                    </ul>
-                </div>
-
-                <div id="menu1" class="tab-pane fade food">
-                    <h3>Menu 1</h3>
-                    <ul>
-                        <li>Asian</li>
-                        <li>Italian</li>
-                        <li>Japanese</li>
-                        <li>American</li>
-                        <li>Balkan</li>
-                    </ul>
-                </div>
-
-                <div id="menu2" class="tab-pane fade food">
-                    <h3>Menu 2</h3>
-                    <ul>
-                        <li>Asian</li>
-                        <li>Italian</li>
-                        <li>Japanese</li>
-                        <li>American</li>
-                        <li>Balkan</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="hero-text-box">
+            <h1>Lorem ipsum dolor sit amet. <br>
+                Consectetur adipisicing.</h1>
+            <a class="btn btn-full" href="#">I`m Hungry</a>
+            <a class="btn btn-ghost" href="#">Show me more</a>
         </div>
-        <div class="offer_img">
-            <img src="assets/images/3.jpg" alt="">
+    </header>
+
+    <section class="section-features">
+        <div class="row">
+            <h2>
+                Get food fast &mdash; Not fast food
+            </h2>
+            <p class="long-copy">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
+                perspiciatis veritatis nesciunt deleniti, sequi assumenda, eos
+                pariatur vitae repudiandae ipsum, aliquid quidem!
+            </p>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-4 box">
+                <i class="ion-ios-infinite-outline icon-big"></i>
+                <h3>Lorem ipsum dolor</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis totam asperiores labore doloremque,
+                    repudiandae illo ea, deserunt id similique minima rem nisi!
+                </p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="ion-ios-stopwatch-outline icon-big"></i>
+                <h3>Lorem ipsum dolor</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis totam asperiores labore doloremque,
+                    repudiandae illo ea, deserunt id similique minima rem nisi!
+                </p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="ion-ios-nutrition-outline icon-big"></i>
+                <h3>Lorem ipsum dolor</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis totam asperiores labore doloremque,
+                    repudiandae illo ea, deserunt id similique minima rem nisi!
+                </p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <i class="ion-ios-cart-outline icon-big"></i>
+                <h3>Lorem ipsum dolor</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis totam asperiores labore doloremque,
+                    repudiandae illo ea, deserunt id similique minima rem nisi!
+                </p>
+            </div>
         </div>
     </section>
-    <div class="bar"></div>
-    <footer>
-        <div class="footer_content">
-            2020 &copy; YOURFOOD
+    <section class="section-meals">
+        <ul class="meals-showcase clearfix">
+            <li>
+                <figure class="meal-photo">
+                    <img src="assets/images/1.jpg" alt="food1">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="assets/images/2.jpg" alt="food2">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="assets/images/3.jpg" alt="food3">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="assets/images/4.jpg" alt="food4">
+                </figure>
+            </li>
+        </ul>
+        <ul class="meals-showcase clearfix">
+            <li>
+                <figure class="meal-photo">
+                    <img src="assets/images/5.jpg" alt="food5">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="assets/images/6.jpg" alt="food6">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="assets/images/7.jpg" alt="food7">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="assets/images/8.jpg" alt="food8">
+                </figure>
+            </li>
+        </ul>
+    </section>
+    <section class="section-steps">
+        <div class="row">
+            <h2>How it works &mdash; 1, 2, 3</h2>
         </div>
-    </footer>
+        <div class="row">
+            <div class="col span-1-of-2 steps-box">
+                <img src="assets/images/app-iPhone.png" alt="Omnifood app on iPhone" class="app-screen">
+            </div>
+            <div class="col span-1-of-2 steps-box">
+                <div class="works-step">
+                    <div>
+                        1
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, porro.
+                    </p>
+                </div>
+                <div class="works-step">
+                    <div>
+                        2
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, porro.
+                    </p>
+                </div>
+                <div class="works-step">
+                    <div>
+                        3
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, porro.
+                    </p>
+                </div>
 
+                <a href="#" class="btn-app"><img src="assets/images/download-app.svg" alt="app store button"></a>
+                <a href="#" class="btn-app"><img src="assets/images/download-app-android.png"
+                        alt="play store button"></a>
+            </div>
+        </div>
+    </section>
+    <section class="section-cities">
+        <div class="row">
+            <h2>We`re currently in these cities</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-4 box">
+                <img src="assets/images/lisbon-3.jpg" alt="Lisbon">
+                <h3>Lisbon</h3>
+                <div class="city-feature">
+                    <i class="ion-ios-person icon-small"></i>
+                    1600+ happy eaters
+                </div>
+                <div class="city-feature">
+                    <i class="ion-ios-star icon-small"></i>
+                    60+ top chefs
+                </div>
+                <div class="city-feature">
+                    <i class="ion-social-twitter icon-small"></i>
+                    <a href="#">#omnifood_li</a>
+                </div>
+            </div>
+            <div class="col span-1-of-4 box">
+                <img src="assets/images/berlin.jpg" alt="Berlin">
+                <h3>Berlin</h3>
+                <div class="city-feature">
+                    <i class="ion-ios-person icon-small"></i>
+                    1600+ happy eaters
+                </div>
+                <div class="city-feature">
+                    <i class="ion-ios-star icon-small"></i>
+                    60+ top chefs
+                </div>
+                <div class="city-feature">
+                    <i class="ion-social-twitter icon-small"></i>
+                    <a href="#">#omnifood_li</a>
+                </div>
+            </div>
+            <div class="col span-1-of-4 box">
+                <img src="assets/images/san-francisco.jpg" alt="San Francisco">
+                <h3>San Francisco</h3>
+                <div class="city-feature">
+                    <i class="ion-ios-person icon-small"></i>
+                    1600+ happy eaters
+                </div>
+                <div class="city-feature">
+                    <i class="ion-ios-star icon-small"></i>
+                    60+ top chefs
+                </div>
+                <div class="city-feature">
+                    <i class="ion-social-twitter icon-small"></i>
+                    <a href="#">#omnifood_li</a>
+                </div>
+            </div>
+            <div class="col span-1-of-4 box">
+                <img src="assets/images/london.jpg" alt="London">
+                <h3>London</h3>
+                <div class="city-feature">
+                    <i class="ion-ios-person icon-small"></i>
+                    1600+ happy eaters
+                </div>
+                <div class="city-feature">
+                    <i class="ion-ios-star icon-small"></i>
+                    60+ top chefs
+                </div>
+                <div class="city-feature">
+                    <i class="ion-social-twitter icon-small"></i>
+                    <a href="#">#omnifood_li</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-testimonials">
+        <div class="row">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, sit quod. Dolores dignissimos ipsa
+                    libero velit nisi illum quod ipsum.
+                    <cite>
+                        <img src="assets/images/customer-1.jpg" alt="Customer">
+                        Alberto Fuego
+                    </cite>
+                </blockquote>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, sit quod. Dolores dignissimos ipsa
+                    libero velit nisi illum quod ipsum.
+                    <cite>
+                        <img src="assets/images/customer-2.jpg" alt="Customer">
+                        Alberto Fuego
+                    </cite>
+                </blockquote>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, sit quod. Dolores dignissimos ipsa
+                    libero velit nisi illum quod ipsum.
+                    <cite>
+                        <img src="assets/images/customer-3.jpg" alt="Customer">
+                        Alberto Fuego
+                    </cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    <section class="section-plans js--section-plans" id="plans">
+        <div class="row">
+            <h2>Start eating healthy today</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div class="plan-box js--wp-4">
+                    <div>
+                        <h3>Premium</h3>
+                        <p class="plan-price">$399 <span>/ month</span></p>
+                        <p class="plan-price-meal">That's only 13.30$ per meal</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal every day</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Access to newest creations</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-full">Sign up now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>Pro</h3>
+                        <p class="plan-price">$149 <span>/ month</span></p>
+                        <p class="plan-price-meal">That's only 14.90$ per meal</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal 10 days/month</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Access to newest creations</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-ghost">Sign up now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>Starter</h3>
+                        <p class="plan-price">19$ <span>/ meal</span></p>
+                        <p class="plan-price-meal">&nbsp;</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Order from 8 am to 12 pm</li>
+                            <li><i class="ion-ios-close-empty icon-small"></i></li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-ghost">Sign up now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-form">
+        <div class="row">
+            <h2>We are happy to hear from you</h2>
+        </div>
+        <div class="row">
+            <form method="post" action="#" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="find-us">How did you find us?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="find-us" id="find-us">
+                            <option value="friends" selected>Friends</option>
+                            <option value="search">Search engine</option>
+                            <option value="ad">Advertisement</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Newsletter?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="checkbox" name="news" id="news" checked> Yes, please
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Drop us a line</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Send it!">
+                    </div>
+                </div>
 
+            </form>
+        </div>
+
+    </section>
 </body>
 
 </html>
