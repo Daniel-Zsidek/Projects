@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
@@ -40,6 +43,11 @@
                         </a>
                     </li>
                     <li class="nav-item active">
+                        <a href="#services" class="nav-link">
+                            Services
+                        </a>
+                    </li>
+                    <li class="nav-item active">
                         <a href="#gallery" class="nav-link">
                             Gallery
                         </a>
@@ -60,7 +68,7 @@
     </nav>
 
 
-    <!---About -->
+    <!---HOME -->
     <section id="home">
         <div id="myCarousel" class="carousel slide pb-5" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -119,7 +127,81 @@
         </div>
     </section>
 
+    <!-- ABOUT US -->
     <section id="about">
+        <div class="container">
+            <h2 class="text-center my-4 py-4">Once you try our services you won`t need another Company</h2>
+            <div class="row">
+                <div class="col-sm-4 pb-5">
+                    <h3 class="text-center">
+                        <i class="fas fa-cart-arrow-down fa-3x text-dark"></i>
+                    </h3>
+                    <div class="card bg-dark text-white">
+                        <div class="card-header bg-dark text-center">
+                            Fast and easy
+                        </div>
+                        <div class="card-body bg-secondary text-center">
+                            <div class="card-title">
+                                <h3>Online shoping</h3>
+                            </div>
+                            <div class="card-text">
+                                <p class="lead text-justify">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quas, delectus numquam
+                                    temporibus labore eius officia, voluptate ducimus quae, ex asperiores dolorum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 pb-5">
+                    <h3 class="text-center">
+                        <i class="fas fa-store-alt fa-3x text-success"></i>
+                    </h3>
+                    <div class="card bg-sucess text-white">
+                        <div class="card-header bg-success text-center">
+                            Fast and easy
+                        </div>
+                        <div class="card-body bg-success text-center">
+                            <div class="card-title">
+                                <h3>Selling through us</h3>
+                            </div>
+                            <div class="card-text">
+                                <p class="lead text-justify">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quas, delectus numquam
+                                    temporibus labore eius officia, voluptate ducimus quae, ex asperiores dolorum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 pb-5">
+                    <h3 class="text-center">
+                        <i class="fas fa-shipping-fast fa-3x text-dark"></i>
+                    </h3>
+                    <div class="card bg-dark text-white">
+                        <div class="card-header bg-dark text-center">
+                            Fast and easy
+                        </div>
+                        <div class="card-body bg-secondary text-center">
+                            <div class="card-title">
+                                <h3>Fast delivery</h3>
+                            </div>
+                            <div class="card-text">
+                                <p class="lead text-justify">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quas, delectus numquam
+                                    temporibus labore eius officia, voluptate ducimus quae, ex asperiores dolorum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
         <div class="container pt-5">
             <div class="row">
 
@@ -132,7 +214,7 @@
                     </div>
                     <ul class="nav nav-tabs tab_heading">
                         <li class="nav-item">
-                            <a class="nav-link active" data-toggle="tab" href="#home">
+                            <a class="nav-link active" data-toggle="tab" href="#home1">
                                 <i class="fas fa-cart-arrow-down"></i> Online Sale</a>
                         </li>
                         <li class="nav-item text-success">
@@ -148,7 +230,7 @@
 
                     <!-- Tab panes -->
                     <div class="tab-content">
-                        <div class="tab-pane tab_content active container" id="home">
+                        <div class="tab-pane tab_content active container" id="home1">
                             <div class="row p-3">
                                 <div class="col-sm-8 p-5 border-success">
                                     <h3 class="pd-3">We ofer wide posibility of online shoping</h3>
@@ -179,27 +261,76 @@
                                     <img src="https://source.unsplash.com/random/564x564" lt="" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="tab-pane tab_content container" id="menu2">
-                                <div class="row p-3">
-                                    <div class="col-sm-8 p-5 border-success">
-                                        <h3 class="pd-3">We are buying stuff you dont need</h3>
-                                        <p class="lead text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
-                                            elit. Blanditiis
-                                            ducimus, modi animi molestiae mollitia illum eaque minima dolore asperiores
-                                            necessitatibus. Perferendis sint officia quae sit magnam aliquam eum aut
-                                            molestiae quibusdam quod odio architecto, nisi autem et quos sapiente.
-                                            Commodi
-                                            temporibus deleniti dicta voluptate.</p>
-                                    </div>
-                                    <div class="col-sm-4 d-none d-sm-block">
-                                        <img src="https://source.unsplash.com/random/564x566" lt="" class="img-fluid">
-                                    </div>
+                        </div>
+                        <div class="tab-pane tab_content container" id="menu2">
+                            <div class="row p-3">
+                                <div class="col-sm-8 p-5 border-success">
+                                    <h3 class="pd-3">We are buying stuff you dont need</h3>
+                                    <p class="lead text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Blanditiis
+                                        ducimus, modi animi molestiae mollitia illum eaque minima dolore asperiores
+                                        necessitatibus. Perferendis sint officia quae sit magnam aliquam eum aut
+                                        molestiae quibusdam quod odio architecto, nisi autem et quos sapiente.
+                                        Commodi
+                                        temporibus deleniti dicta voluptate.</p>
+                                </div>
+                                <div class="col-sm-4 d-none d-sm-block">
+                                    <img src="https://source.unsplash.com/random/564x566" lt="" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
     </section>
+    <section id="gallery" class="bg-secondary">
+        <div class="container">
+            <h3 class="text-center m-5 p-5 text-white display-3">Get inspired by these awesome photos</h3>
+            <div class="row mb-sm-4">
+                <div class="col-sm-3">
+                    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox"
+                        data-gallery="example-gallery" class="col-sm-4">
+                        <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox"
+                        data-gallery="example-gallery" class="col-sm-4">
+                        <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox"
+                        data-gallery="example-gallery" class="col-sm-4">
+                        <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-sm-3"><a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox"
+                        data-gallery="example-gallery" class="col-sm-4">
+                        <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
+                    </a></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3"><a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox"
+                        data-gallery="example-gallery" class="col-sm-4">
+                        <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
+                    </a></div>
+                <div class="col-sm-3"><a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox"
+                        data-gallery="example-gallery" class="col-sm-4">
+                        <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
+                    </a></div>
+                <div class="col-sm-3"><a href="https://unsplash.it/1200/768.jpg?image=257" data-toggle="lightbox"
+                        data-gallery="example-gallery" class="col-sm-4">
+                        <img src="https://unsplash.it/600.jpg?image=257" class="img-fluid">
+                    </a></div>
+                <div class="col-sm-3"><a href="https://unsplash.it/1200/768.jpg?image=258" data-toggle="lightbox"
+                        data-gallery="example-gallery" class="col-sm-4">
+                        <img src="https://unsplash.it/600.jpg?image=258" class="img-fluid">
+                    </a></div>
+            </div>
+        </div>
+    </section>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
@@ -209,7 +340,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
     <script>
         // Get the current year for the copyright
@@ -219,6 +350,25 @@
         $('.carousel').carousel({
             interval: 6000,
             pause: 'hover'
+        });
+
+        // Tabed view for services
+        $(document).ready(function () {
+            $(".nav-tabs a").click(function () {
+                $(this).tab('show');
+            });
+            $('.nav-tabs a').on('shown.bs.tab', function (event) {
+                var x = $(event.target).text();         // active tab
+                var y = $(event.relatedTarget).text();  // previous tab
+                $(".act span").text(x);
+                $(".prev span").text(y);
+            });
+        });
+
+        //Lightbox
+        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
         });
     </script>
 </body>
