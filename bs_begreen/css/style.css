@@ -1,0 +1,58 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.main-navi li a {
+    font-size: 1.3rem;
+    border-bottom: 1px solid transparent;
+    transition: all 0.5s ease;
+}
+
+.main-navi li a:hover {
+    font-size: 1.3rem;
+    border-bottom: 1px solid #ffffff;
+}
+
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/image1.jpg');
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/image2.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/image3.jpg');
+    background-size: cover;
+}
+
+.tab_heading li a {
+    font-size: 30px;
+    padding: 1rem 5rem;
+    border: 1px solid transparent;
+    color: #333333;
+}
+
+.tab_content {
+    min-height: 40vh;
+}
+
+.tab_heading li a.nav-link.active {
+    color: #28a745 ;
+    border: 0px;
+}
