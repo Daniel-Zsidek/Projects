@@ -1,0 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Epilogue' , sans-serif;
+}
+
+.dash_item {
+    padding: 1rem;
+    margin-right: 3px;
+}
