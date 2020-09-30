@@ -27,6 +27,18 @@ body {
     color: #ffffff;
 }
 
+@media (max-width: 830px) {
+    .hero_heading_brand{
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero_heading_brand{
+        font-size: 3rem;
+    }
+}
+
 .hero_heading {
     color: #ffffff;
     text-align: center;
