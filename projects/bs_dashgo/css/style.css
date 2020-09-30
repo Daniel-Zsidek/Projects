@@ -10,3 +10,7 @@ body {
     padding: 1rem;
     margin-right: 3px;
 }
+
+.footer_fix {
+    min-height: calc(100vh - 72px);
+}
